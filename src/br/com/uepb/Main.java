@@ -14,7 +14,7 @@ public class Main {
             Menu.start();
             System.out.println("Escreva sua equação.");
             expressao = leitor.next();
-            Functions.execute(expressao);
+            System.out.println(Functions.execute(expressao));
         }while(true);
 
 
